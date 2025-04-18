@@ -1,0 +1,25 @@
+package com.codes.basic;
+
+public class cons1 {
+	int roll;
+	String name;
+	public cons1(int roll,String name) {
+		this.roll=roll;
+		this.name=name;
+		System.out.println("we are in constructor");
+		
+	}
+	
+	void result()
+	{
+		System.out.println("name="+name+" Roll="+roll);
+		
+	}
+	
+	public static void main(String[] args) {
+	cons1 obj=new cons1(20, "name");
+	obj.result();
+
+	}
+
+}
